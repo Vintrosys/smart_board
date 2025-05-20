@@ -1,0 +1,188 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard v3",
+  "is_public": 0,
+  "is_shared_with_organization": false,
+  "items": "[\n {\n  \"chart\": \"csr4t5d7c0\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"epeq1l3g\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 0,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"atjnnd4a9t\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"lxpjfl8c\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 7,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"fur1tpv838\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"8z66oik4\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 10,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"4039vep6i1\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"7d29bpnc\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 2\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"50m3pu1v3g\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"1yq8kc3u\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 10,\n   \"y\": 10\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"d17rdba6vn\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"3tbzpaos\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 10,\n   \"y\": 2\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"82degvc482\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"grjlddsn\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 10\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"c35lj76f52\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"irg6x0rp\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 26\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"e5fg68akc5\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"m13afper\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 10,\n   \"y\": 18\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"b70ngnt34b\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"9t9y9akh\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 18\n  },\n  \"type\": \"chart\"\n },\n {\n  \"filter_name\": \"Date Range\",\n  \"filter_type\": \"Date\",\n  \"layout\": {\n   \"h\": 1,\n   \"i\": \"1obnzyjg\",\n   \"moved\": false,\n   \"w\": 4,\n   \"x\": 3,\n   \"y\": 0\n  },\n  \"links\": {\n   \"4039vep6i1\": \"`ar5t4q7a7a`.`creation`\",\n   \"50m3pu1v3g\": \"`ar5t4q7a7a`.`creation`\",\n   \"82degvc482\": \"`ar5t4q7a7a`.`creation`\",\n   \"atjnnd4a9t\": \"`ar5t4q7a7a`.`creation`\",\n   \"b70ngnt34b\": \"`ar5t4q7a7a`.`creation`\",\n   \"c35lj76f52\": \"`ar5t4q7a7a`.`creation`\",\n   \"d17rdba6vn\": \"`ar5t4q7a7a`.`creation`\",\n   \"e5fg68akc5\": \"`ar5t4q7a7a`.`creation`\"\n  },\n  \"type\": \"filter\"\n },\n {\n  \"chart\": \"e4tdb78bhh\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"31g910sf\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 17,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n }\n]",
+  "linked_charts": [
+   {
+    "chart": "csr4t5d7c0",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "atjnnd4a9t",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "fur1tpv838",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "4039vep6i1",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "50m3pu1v3g",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "d17rdba6vn",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "82degvc482",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "c35lj76f52",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "e5fg68akc5",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "b70ngnt34b",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "e4tdb78bhh",
+    "parent": "27nm4upqsh",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   }
+  ],
+  "modified": "2025-05-08 15:49:39.813491",
+  "name": "27nm4upqsh",
+  "old_name": null,
+  "people_with_access": [],
+  "preview_image": "/private/files/27nm4upqsh-preview.jpeg?945e",
+  "read_only": false,
+  "share_link": null,
+  "title": "Support - All Hands Review",
+  "workbook": "1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard v3",
+  "is_public": 0,
+  "is_shared_with_organization": false,
+  "items": "[\n {\n  \"chart\": \"3lbiipoe5j\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"bcy4biaa\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 0,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"bsmq5vf1if\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"b60orveu\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 7,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"1t7ioaucbu\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"bju1155k\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 5,\n   \"y\": 2\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"evmahfo7g3\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"f3jav364\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 4\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"12g20fbrfs\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"6kg60wfs\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 16,\n   \"y\": 2\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"839rvcmu25\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"20z89saa\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 30\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"95rtvf6jsq\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"fnvnp5o4\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 16,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"e7r0nnabni\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"k8w0j99e\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 10,\n   \"y\": 4\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"cfaf12ok3k\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"2y5y61l6\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 10,\n   \"y\": 30\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"aj6eddm8nq\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"uau040n.\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 38\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"ejv51p5849\",\n  \"layout\": {\n   \"h\": 3,\n   \"i\": \"7ebn0iqh\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 11,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"filter_name\": \"Date Range\",\n  \"filter_type\": \"Date\",\n  \"layout\": {\n   \"h\": 1,\n   \"i\": \"968883nx\",\n   \"moved\": false,\n   \"w\": 4,\n   \"x\": 3,\n   \"y\": 0\n  },\n  \"links\": {\n   \"1t7ioaucbu\": \"`971f7vshu1`.`creation`\",\n   \"6rrrgt9pgm\": \"`971f7vshu1`.`creation`\",\n   \"bsmq5vf1if\": \"`971f7vshu1`.`creation`\",\n   \"cfaf12ok3k\": \"`5iej0n2180`.`from_datetime`\",\n   \"cqvla5r06q\": \"`5iej0n2180`.`from_datetime`\",\n   \"e7r0nnabni\": \"`971f7vshu1`.`creation`\",\n   \"evmahfo7g3\": \"`971f7vshu1`.`creation`\"\n  },\n  \"type\": \"filter\"\n },\n {\n  \"chart\": \"6rrrgt9pgm\",\n  \"layout\": {\n   \"h\": 2,\n   \"i\": \"ds2k2ge2\",\n   \"moved\": false,\n   \"w\": 3,\n   \"x\": 2,\n   \"y\": 2\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"cqvla5r06q\",\n  \"layout\": {\n   \"h\": 9,\n   \"i\": \"655gz6qe\",\n   \"moved\": false,\n   \"w\": 20,\n   \"x\": 0,\n   \"y\": 21\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"jn7giaj716\",\n  \"layout\": {\n   \"h\": 9,\n   \"i\": \"jf90jxkb\",\n   \"moved\": false,\n   \"w\": 20,\n   \"x\": 0,\n   \"y\": 12\n  },\n  \"type\": \"chart\"\n }\n]",
+  "linked_charts": [
+   {
+    "chart": "3lbiipoe5j",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "bsmq5vf1if",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "1t7ioaucbu",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "evmahfo7g3",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "12g20fbrfs",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "839rvcmu25",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "95rtvf6jsq",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "e7r0nnabni",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "cfaf12ok3k",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "aj6eddm8nq",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "ejv51p5849",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "6rrrgt9pgm",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "cqvla5r06q",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   },
+   {
+    "chart": "jn7giaj716",
+    "parent": "0kuoks81rq",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   }
+  ],
+  "modified": "2025-05-20 16:39:59.575110",
+  "name": "0kuoks81rq",
+  "old_name": null,
+  "people_with_access": [],
+  "preview_image": "/private/files/0kuoks81rq-preview.jpeg?7fae",
+  "read_only": false,
+  "share_link": null,
+  "title": "Project - All Hands Review",
+  "workbook": "2"
+ }
+]
