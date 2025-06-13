@@ -184,5 +184,29 @@
   "share_link": null,
   "title": "Project - All Hands Review",
   "workbook": "2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard v3",
+  "is_public": 0,
+  "is_shared_with_organization": false,
+  "items": "[\n {\n  \"chart\": \"2qejedotof\",\n  \"layout\": {\n   \"h\": 8,\n   \"i\": \"3po6d7s9\",\n   \"moved\": false,\n   \"w\": 10,\n   \"x\": 0,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n }\n]",
+  "linked_charts": [
+   {
+    "chart": "2qejedotof",
+    "parent": "30inped9dv",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3"
+   }
+  ],
+  "modified": "2025-06-13 18:59:42.489036",
+  "name": "30inped9dv",
+  "old_name": null,
+  "people_with_access": [],
+  "preview_image": null,
+  "read_only": false,
+  "share_link": null,
+  "title": "Accounts DB",
+  "workbook": "6"
  }
 ]

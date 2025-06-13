@@ -242,3 +242,10 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Insights Workbook"},
+    {"dt": "Insights Chart v3"},
+    {"dt": "Insights Query v3"},
+    {"dt": "Insights Dashboard v3"},
+]
+
