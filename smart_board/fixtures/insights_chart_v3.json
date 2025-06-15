@@ -388,5 +388,20 @@
   "read_only": false,
   "title": "Task Summary",
   "workbook": "2"
+ },
+ {
+  "chart_type": "Donut",
+  "config": "{\n \"filters\": {\n  \"filters\": [],\n  \"logical_operator\": \"And\"\n },\n \"label_column\": {\n  \"column_name\": \"ageing_bucket\",\n  \"data_type\": \"String\",\n  \"dimension_name\": \"ageing_bucket\",\n  \"label\": \"ageing_bucket\",\n  \"value\": \"ageing_bucket\"\n },\n \"limit\": 100,\n \"order_by\": [],\n \"value_column\": {\n  \"aggregation\": \"sum\",\n  \"column_name\": \"outstanding_amount\",\n  \"data_type\": \"Decimal\",\n  \"measure_name\": \"sum_of_outstanding_amount\"\n }\n}",
+  "data_query": "2qejnsl5ve",
+  "docstatus": 0,
+  "doctype": "Insights Chart v3",
+  "is_public": 0,
+  "modified": "2025-06-13 18:58:55.149753",
+  "name": "2qejedotof",
+  "old_name": null,
+  "query": "udjm36paga",
+  "read_only": false,
+  "title": "Accounts Receivable Ageing",
+  "workbook": "6"
  }
 ]

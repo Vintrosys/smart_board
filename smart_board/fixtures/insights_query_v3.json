@@ -574,5 +574,37 @@
   "title": null,
   "use_live_connection": 1,
   "workbook": "2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Query v3",
+  "is_builder_query": 0,
+  "is_native_query": 1,
+  "is_script_query": 0,
+  "linked_queries": "[]",
+  "modified": "2025-06-13 18:58:39.003408",
+  "name": "udjm36paga",
+  "old_name": null,
+  "operations": "[\n {\n  \"data_source\": \"Site DB\",\n  \"raw_sql\": \"SELECT \\n    customer AS entity, \\n    '0-30 Days' AS ageing_bucket, \\n    SUM(CASE WHEN DATEDIFF(NOW(), posting_date) BETWEEN 0 AND 30 THEN outstanding_amount ELSE 0 END) AS outstanding_amount\\nFROM `tabSales Invoice`\\nWHERE docstatus = 1 AND outstanding_amount > 0\\nGROUP BY customer\\n\\nUNION ALL\\n\\nSELECT \\n    customer AS entity, \\n    '31-60 Days' AS ageing_bucket, \\n    SUM(CASE WHEN DATEDIFF(NOW(), posting_date) BETWEEN 31 AND 60 THEN outstanding_amount ELSE 0 END) AS outstanding_amount\\nFROM `tabSales Invoice`\\nWHERE docstatus = 1 AND outstanding_amount > 0\\nGROUP BY customer\\n\\nUNION ALL\\n\\nSELECT \\n    customer AS entity, \\n    '61-90 Days' AS ageing_bucket, \\n    SUM(CASE WHEN DATEDIFF(NOW(), posting_date) BETWEEN 61 AND 90 THEN outstanding_amount ELSE 0 END) AS outstanding_amount\\nFROM `tabSales Invoice`\\nWHERE docstatus = 1 AND outstanding_amount > 0\\nGROUP BY customer\\n\\nUNION ALL\\n\\nSELECT \\n    customer AS entity, \\n    '>90 Days' AS ageing_bucket, \\n    SUM(CASE WHEN DATEDIFF(NOW(), posting_date) > 90 THEN outstanding_amount ELSE 0 END) AS outstanding_amount\\nFROM `tabSales Invoice`\\nWHERE docstatus = 1 AND outstanding_amount > 0\\nGROUP BY customer;\\n\",\n  \"type\": \"sql\"\n }\n]",
+  "read_only": false,
+  "title": "Outstanding-SI",
+  "use_live_connection": 1,
+  "workbook": "6"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Query v3",
+  "is_builder_query": 0,
+  "is_native_query": 0,
+  "is_script_query": 0,
+  "linked_queries": "[\n \"udjm36paga\"\n]",
+  "modified": "2025-06-13 18:58:56.586307",
+  "name": "2qejnsl5ve",
+  "old_name": null,
+  "operations": "[\n {\n  \"table\": {\n   \"query_name\": \"udjm36paga\",\n   \"type\": \"query\",\n   \"workbook\": \"\"\n  },\n  \"type\": \"source\"\n },\n {\n  \"dimensions\": [\n   {\n    \"column_name\": \"ageing_bucket\",\n    \"data_type\": \"String\",\n    \"dimension_name\": \"ageing_bucket\",\n    \"label\": \"ageing_bucket\",\n    \"value\": \"ageing_bucket\"\n   }\n  ],\n  \"measures\": [\n   {\n    \"aggregation\": \"sum\",\n    \"column_name\": \"outstanding_amount\",\n    \"data_type\": \"Decimal\",\n    \"measure_name\": \"sum_of_outstanding_amount\"\n   }\n  ],\n  \"type\": \"summarize\"\n },\n {\n  \"column\": {\n   \"column_name\": \"sum_of_outstanding_amount\",\n   \"type\": \"column\"\n  },\n  \"direction\": \"desc\",\n  \"type\": \"order_by\"\n },\n {\n  \"limit\": 100,\n  \"type\": \"limit\"\n }\n]",
+  "read_only": false,
+  "title": null,
+  "use_live_connection": 1,
+  "workbook": "6"
  }
 ]
